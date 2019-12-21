@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!-- 城市名 -->
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="@dimen/city_result_item_margin"
+            android:textSize="@dimen/city_result_text"
+            tools:text="卓资" />
+
+        <!-- 上级城市 -->
+        <TextView
+            android:id="@+id/parent_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/city_result_item_margin"
+            android:layout_marginEnd="@dimen/city_result_item_margin"
+            android:textSize="@dimen/city_result_text"
+            tools:text="乌兰察布" />
+        <!-- 行政区域 -->
+        <TextView
+            android:id="@+id/admin_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/city_result_item_margin"
+            android:layout_marginEnd="@dimen/city_result_item_margin"
+            android:textSize="@dimen/city_result_text"
+            tools:text="内蒙古" />
+        <!-- 所属国家 -->
+        <TextView
+            android:id="@+id/cnty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/city_result_item_margin"
+            android:layout_marginEnd="@dimen/city_result_item_margin"
+            android:textSize="@dimen/city_result_text"
+            tools:text="中国" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bgCCC" />
+
+</LinearLayout>
